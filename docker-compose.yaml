@@ -1,7 +1,6 @@
 services:
   backend:
     build: ./apps
-    image: "christiankencana/simple-apps:v1"
     container_name: apps
     restart: always
     expose:
